@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 
 
 function App() {
-
+  const username = "chai aur code"
   return (
     <>
-    <h1>souvik is react</h1>
+    <h1>souvik is react {username}</h1>
     <Test/>
     </>
     
