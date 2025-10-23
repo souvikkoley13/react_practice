@@ -15,11 +15,27 @@ function App() {
       <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>
       {/* <button className='outline-none px-4 rounded-full text-white shadow-lg'style={{backgroundColor: red}}>Red</button> */}
       <button onClick={() => setColor('red')}
-      className='outline-none px-4 rounded-full text-black shadow-lg'>red</button>
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-red-500'>red</button>
       <button onClick={() => setColor('green')} 
-      className='outline-none px-4 rounded-full text-black shadow-lg'>green</button>
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-green-700'>green</button>
       <button onClick={() => setColor('blue')} 
-      className='outline-none px-4 rounded-full text-black shadow-lg'>blue</button>
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
+      <button onClick={() => setColor('purple')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-purple-300'>lavender</button>
+      <button onClick={() => setColor('olive')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-green-300'>olive</button>
+      <button onClick={() => setColor('gray')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-gray-500'>gray</button>
+      <button onClick={() => setColor('blue')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
+      <button onClick={() => setColor('blue')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
+      <button onClick={() => setColor('blue')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
+      <button onClick={() => setColor('blue')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
+      <button onClick={() => setColor('blue')} 
+      className='outline-none px-4 rounded-full text-white shadow-lg bg-blue-500'>blue</button>
       </div>
     </div>
     </div>
