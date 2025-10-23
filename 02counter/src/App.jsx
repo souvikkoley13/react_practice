@@ -14,7 +14,16 @@ function App() {
     //console.log("clicked",counter);
     // setCounter(counter + 1)
     if(counter < 20){
-      setCounter(counter+1)
+      /* will only add one time because react fiber sends variable in batches.
+      it identifies these lines as same task and performs only once.
+         setCounter(counter+1)
+         setCounter(counter+1)
+         setCounter(counter+1)
+      */
+     /* correct way */
+     setCounter(prevCounter => prevCounter + 1) // it is a callback inside setCounter
+     setCounter(prevCounter => prevCounter + 1) // can use diff names instead of prevCounter but avoid it to maintain uniformity
+     setCounter(prevCounter => prevCounter + 1)
     }
   }
 
